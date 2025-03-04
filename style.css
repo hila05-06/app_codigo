@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+section {
+    width: 375px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.logo_1 {
+    width: 100%;
+    height: auto;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button{
+    display: flex;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #c59a31;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s, color 0.3s;
+    margin: 20px;
+}
+
+.btn-reservar:hover {
+    background: #c59a31;
+    color: white;
+}
